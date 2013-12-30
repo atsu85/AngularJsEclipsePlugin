@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<extension
+		id="ee.uiboupin.ats.angular.eclipse.angularCompletitionProposals"
+		point="org.eclipse.wst.sse.ui.completionProposal">
+		<proposalCategory id="ee.uiboupin.ats.angular.eclipse.angularjs.category"
+			name="AngularJS proposals">
+		</proposalCategory>
+
+		<proposalComputer activate="true"
+			categoryId="ee.uiboupin.ats.angular.eclipse.angularjs.category"
+			class="ee.uiboupin.ats.angular.eclipse.autocomplete.AngularJSHtmlCompletionProposalComputer"
+			id="ee.uiboupin.ats.angular.eclipse.angularjs.proposalcomputer">
+			<contentType id="org.eclipse.wst.html.core.htmlsource" />
+		</proposalComputer>
+	</extension>
+	<!--
+	<extension
+		id="ee.uiboupin.ats.angular.eclipse.angularCompletitionProposals"
+		point="org.eclipse.wst.sse.ui.completionProposal">
+		<proposalCategory id="ee.uiboupin.ats.angular.eclipse.angularjs.category"
+			name="AngularJS proposals">
+		</proposalCategory>
+
+		<proposalComputer activate="true"
+			categoryId="ee.uiboupin.ats.angular.eclipse.angularjs.category"
+			class="ee.uiboupin.ats.angular.eclipse.autocomplete.AngularJSHtmlCompletionProposalComputer"
+			id="ee.uiboupin.ats.angular.eclipse.angularjs.proposalcomputer">
+			<contentType id="org.eclipse.core.runtime.xml" />
+		</proposalComputer>
+	</extension>
+	-->
+	<extension point="org.eclipse.ui.workbench.texteditor.hyperlinkDetectors">
+		<hyperlinkDetector activate="true"
+			class="ee.uiboupin.ats.angular.eclipse.hyperlink.HtmlHyperlinkDetector"
+			description="detect directive usages from html and convert them to hyperlinks to directive controller"
+			id="ee.uiboupin.ats.angular.eclipse.hyperlinkDetector" name="AngularjsHyperlinkDetector"
+			targetId="org.eclipse.wst.html.core.htmlsource">
+		</hyperlinkDetector>
+	</extension>
+</plugin>

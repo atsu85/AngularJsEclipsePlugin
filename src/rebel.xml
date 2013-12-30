@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.zeroturnaround.com" xsi:schemaLocation="http://www.zeroturnaround.com http://www.zeroturnaround.com/alderaan/rebel-2_0.xsd">
+	<!-- 
+	XXX: used by JRebel (only in development) to avoid redeploy's (changes in code are automatically reloaded without having to restart)
+	Setup:
+	1) install JRebel: Help -> Eclipse Marketplace -> [Search] -> Find: "JRebel" -> Install
+	2) create default plugin launch configuration: open plugin.xml -> [Overview] -> Launch an Eclipse application
+	3) close launched application
+	4) configure launch configuration to launch with JRebel: Run -> Run configurations -> search the created run configuration "Eclipse Application" -> [JRebel] -> Enable JRebel agent -> [Run]
+	DONE: try to change some class and see the changes :)
+	 -->
+
+	<classpath>
+		<dir name="C:/dev/proj/ats/AngularJsEclipsePlugin/bin">
+		</dir>
+	</classpath>
+
+</application>

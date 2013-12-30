@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: AngularJsEclipsePlugin
+Bundle-SymbolicName: ee.uiboupin.ats.angular.eclipse;singleton:=true
+Bundle-Version: 1.0.0.RC1
+Bundle-Activator: ee.uiboupin.ats.angular.eclipse.Activator
+Bundle-Vendor: Ats Uiboupin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jface.text;bundle-version="3.8.101",
+ org.eclipse.core.resources;bundle-version="3.8.101",
+ org.eclipse.wst.sse.ui,
+ org.eclipse.wst.sse.core;bundle-version="1.1.801",
+ org.eclipse.ui.ide
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
