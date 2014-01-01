@@ -6,7 +6,7 @@ AngularJS Eclipse Plugin
 
 The project was created assist developer with writing [AngularJS](http://AngularJS.org/) applications.
 It improves default Eclipse WTP HTML file editor:
-![Screenshot of the plugin in action](https://www.dropbox.com/sh/5xpbkluybciflfl/rbGePYqe7g/Screenshot-HtmlEditor1.png)
+![Screenshot of the plugin in action](https://dl.dropboxusercontent.com/sh/5xpbkluybciflfl/rbGePYqe7g/Screenshot-HtmlEditor1.png?token_hash=AAF3yOKMHz8siMft4MxxXtZb-jz6BccDWrLQcXNfSXaK8A)
 
 0. Propose AngularJS built-in directives that can be used as html element attributes
   * Show short description about each proposal (and link to AngularJS documentation of the proposal)
@@ -22,7 +22,7 @@ It improves default Eclipse WTP HTML file editor:
 
 Eclipse 4.3 installation with "Eclipse Web Development Tools" plugin.
 It is included in many eclipse distributions related to web development, but it can be installed through Help -> Install New Software:
-![Screenshot of installing plugin](https://www.dropbox.com/sh/5xpbkluybciflfl/Pu-L9EZ_x3/dependency-WDT-1.GIF)
+![Screenshot of installing plugin](https://dl.dropboxusercontent.com/sh/5xpbkluybciflfl/Pu-L9EZ_x3/dependency-WDT-1.GIF?token_hash=AAF3yOKMHz8siMft4MxxXtZb-jz6BccDWrLQcXNfSXaK8A)
 
 
 ### Installation
