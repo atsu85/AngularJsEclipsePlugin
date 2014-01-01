@@ -7,6 +7,7 @@ AngularJS Eclipse Plugin
 The project was created to assist developer with writing [AngularJS](http://AngularJS.org/) applications.
 It extends the default HTML file editor of Eclipse WDT plugin (instead of creating new editor just for AngularJS)...
 ![Screenshot of opening WDT HTML Editor](https://dl.dropboxusercontent.com/sh/5xpbkluybciflfl/Uo6Nvhuqb_/OpenUsingHtmlEditor.png?token_hash=AAF3yOKMHz8siMft4MxxXtZb-jz6BccDWrLQcXNfSXaK8A)
+
 ... and it doesn't require configuring project anyhow (no need to add some custom project nature to the Eclipse project).
 
 ![Screenshot of the plugin in action](https://dl.dropboxusercontent.com/sh/5xpbkluybciflfl/rbGePYqe7g/Screenshot-HtmlEditor1.png?token_hash=AAF3yOKMHz8siMft4MxxXtZb-jz6BccDWrLQcXNfSXaK8A)
